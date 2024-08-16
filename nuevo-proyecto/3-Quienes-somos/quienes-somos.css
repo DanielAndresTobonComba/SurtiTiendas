@@ -1,0 +1,766 @@
+/* Header logo */
+
+*{
+    box-sizing: border-box;
+}
+
+.tituloEmpresa {
+    background-color: rgb(233, 36, 36);
+    color: white;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+}
+
+.tituloEmpresa p {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.bordeNegro {
+    border: solid black;
+}
+
+.seccionLogo {
+    display: flex;
+    height: 80px;
+
+
+}
+
+.logo {
+    background-image: url("imagenes/logoSurtitiendas.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 80px;
+}
+
+/* Seccion de los logos de inicio de sesion */
+
+.seccionInicio {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 20px 5%;
+}
+
+.iniciarSesion,
+.registrarte {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(233, 36, 36);
+
+}
+
+
+
+.registrarte p {
+    display: none;
+}
+
+/* menu de busqueda */
+
+.seccionMenu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 36, 36);
+    width: 100%;
+
+}
+
+.opcionMenu {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+
+}
+
+
+/* seccion del buscador */
+.seccionBuscador {
+
+    display: flex;
+
+    height: 30px;
+    width: 100%;
+    padding: 1px;
+}
+
+.buscador {
+    width: 100%;
+    padding: 2px;
+}
+
+.logoLupa {
+
+    border-radius: 30px;
+    background-color: rgb(233, 36, 36);
+}
+
+
+.buscador input {
+    height: 25px;
+    width: 50%;
+
+}
+
+
+.buscador input[type="submit"] {
+    border-radius: 30px;
+    background-color: rgb(233, 36, 36);
+    border: none;
+    width: 30%;
+}
+
+
+/* seccion vision-mision-quienes somos */
+
+main{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 20px;
+    display: flex;
+    height: 35%;
+    background-image: url("imagenes/img-quienes\ somos.png"); 
+    background-size: cover;
+    
+}
+
+main div{
+    height: 100%;
+    background-color:  rgb(255, 255, 255 , 0.7);
+    text-align: center;
+    height: 80%;
+    margin: 2% 1%;
+    border-radius: 10%;
+    padding: 1%;
+    
+}
+
+main div p{
+    line-height: 150%;
+    
+}
+
+
+/* seccion porque escogernos  */
+
+
+
+.tituloEscogernos{
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+}
+
+.seccionEscogernos{
+    
+    display: flex;
+    margin-bottom: 4%;
+}
+
+
+.tarjetasEscogernos{
+    display: flex;
+    
+    flex-direction: column;
+    text-align: center;
+    height: 20%;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    margin: 0px auto;
+}
+
+.imagenEscogernos{
+    text-align: center;
+    width: 100%;
+}
+
+.textoEscogernos{
+    font-size: 20px;
+    
+}
+
+
+
+
+
+/* seccion footer */
+
+footer {
+    background-color: rgb(233, 36, 36);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+footer p{
+    font-size: large;
+}
+
+
+.logoAlqueria{
+    background-image: url("imagenes/logo-alqueria-blanco.png");
+    background-size: cover;
+    width: 200px;
+    height: 60px;
+    margin: 0px auto;
+    
+}
+
+
+.seccionRedesSociales{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: space-evenly;
+}
+
+
+/* Inicio de sesion */ 
+/* Mostrar datos ususario */
+/* Registro de usuario */
+
+
+#tarjetaIniciarSesion , #seccionMostrarDatos , #tarjetaCerrarSesion  {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(231 221 221);
+    left: 38%;
+    top: 38%;
+    position: fixed;
+    visibility: hidden;
+
+}
+
+#seccionMostrarDatos button , #tarjetaCerrarSesion  button , #tarjetaIniciarSesion button {
+    width: 30%;
+    margin: 0PX auto;
+    border-radius: 3px ;
+    border: none;
+    background-color: #7FC7D9;
+    height: 20px;
+}
+
+
+#tarjetaIniciarSesion input{
+    background-color: #799cd9;
+    margin: 5px;
+    border-radius: 3px ;
+    border: none;
+    color: black;
+    height: 25px;
+}
+
+#tarjetaIniciarSesion a{
+    background-color: #799cd9;
+    width: 50%;
+    height: 20px;
+    margin: 5px auto;
+    border-radius: 3px ;
+}
+
+#botonesCerrarSesion{
+    display: flex;
+}
+
+
+
+
+
+#entradaDatos {
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px auto;
+}
+
+#enlaceRegistro {
+    margin-top: 10px;
+}
+
+
+#seccionRegistro input {
+    width: 50%;
+
+}
+
+#botonesRegistro {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0px auto;
+}
+
+
+
+
+/* #seccionMostrarDatos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    border-radius: 20px;
+    height: 200px;
+    visibility: hidden;
+    background-color: rgb(241, 90, 90);
+    left: 38%;
+    top: 38%;
+    position: fixed;
+} */
+
+
+#seccionRegistro {
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #083c64;
+    left: 38%;
+    top: 38%;
+    position: fixed;
+}
+
+/* tarjeta cerrar sesion */
+
+@media (min-width: 0px) and (max-width:349px) {
+
+
+    .seccionInicio {
+        min-width: 100px;
+        margin: 20px 0px 20px 0%;
+    }
+
+    .iniciarSesion,
+    .registrarte {
+        width: 30px;
+        height: 35px;
+    }
+
+    .simboloInicioSesion {
+        width: 30px;
+        height: 30px;
+    }
+
+    .seccionMenu {
+        flex-direction: column;
+    }
+
+    .seccionMenu a {
+        margin: 10px auto;
+
+    }
+
+    .buscador input {
+        width: 60%;
+    }
+
+    .buscador input[type="submit"] {
+
+        border-radius: 30px;
+        background-color: rgb(233, 36, 36);
+        border: none;
+        width: 30%;
+    }
+
+    /* main */
+    
+    main {
+        flex-direction: column;
+    }
+
+    main div {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .seccionEscogernos{
+
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+         
+    }
+
+    .tarjetasEscogernos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .tituloEscogernos{
+        font-size: 30px;
+    }
+    
+    .imagenEscogernos{
+        
+        text-align: center;
+        height: 55%;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        margin: 0px auto;
+        
+    }
+
+
+    /* footer */
+
+    footer p{
+        font-size: 12px;
+    }
+
+    .seccionRedesSociales{
+        flex-direction: column;
+    }
+
+
+    /* iniciar sesion *//* registro usuarios */
+
+    #tarjetaCerrarSesion ,#tarjetaIniciarSesion , #seccionMostrarDatos , #seccionRegistro  {
+        left: 5%;
+        top: 18%;
+        width: 200px;
+        text-align: center;
+    
+    }
+
+    #tarjetaIniciarSesion input{
+        width: 150px;
+        margin: 0px auto;
+    }
+
+    #enlaceRegistro{
+        width: 200px;
+    }
+}
+
+
+
+
+@media (min-width:350px) and (max-width:440px){
+    .tituloEmpresa {
+        height: 80px;
+        padding: 25px;
+        font-size: 25px;
+    }
+
+    .seccionInicio {
+
+        min-width: 200px;
+        margin: 20px 0px 20px 20%;
+    }
+
+    .buscador input {
+        height: 25px;
+        width: 60%;
+
+    }
+
+
+
+    .buscador input[type="submit"] {
+
+        border-radius: 30px;
+        background-color: rgb(233, 36, 36);
+        border: none;
+        width: 20%;
+    }
+
+    .seccionMenu {
+        flex-direction: column;
+    }
+
+    .seccionMenu a {
+        margin: 10px auto;
+    }
+
+
+    main {
+        flex-direction: column;
+    }
+
+    main div {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .seccionEscogernos{
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .tarjetasEscogernos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .tituloEscogernos{
+        font-size: 30px;
+    }
+    
+    .imagenEscogernos{
+        
+        text-align: center;
+        height: 55%;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        margin: 0px auto;
+        
+    }
+
+    /* iniciar sesion */
+
+    #tarjetaIniciarSesion , #seccionMostrarDatos , #seccionRegistro , #tarjetaCerrarSesion  {
+        left: 5%;
+        top: 18%;
+        width: 300px;
+        text-align: center;
+
+    }
+
+    #tarjetaIniciarSesion input{
+        width: 200px;
+    }
+
+    #enlaceRegistro{
+        width: 200px;
+    }
+        
+    
+}
+
+
+@media(min-width:440px) and (max-width:600px){
+
+    .tituloEmpresa {
+        height: 80px;
+        padding: 25px;
+        font-size: 25px;
+    }
+
+    .seccionInicio {
+
+        min-width: 200px;
+        margin: 20px 0px 20px 40%;
+    }
+
+    .buscador input {
+        height: 25px;
+        width: 60%;
+
+    }
+
+
+
+    .buscador input[type="submit"] {
+
+        border-radius: 30px;
+        background-color: rgb(233, 36, 36);
+        border: none;
+        width: 20%;
+    }
+
+    .seccionMenu {
+        flex-direction: column;
+    }
+
+    .seccionMenu a {
+        margin: 10px auto;
+    }
+
+
+    main {
+        flex-direction: column;
+    }
+
+    main div {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    /* iniciar sesion */
+
+    #tarjetaIniciarSesion , #seccionMostrarDatos , #seccionRegistro , #tarjetaCerrarSesion {
+        left: 30%;
+        top: 30%;
+    }
+    
+
+}
+
+@media (min-width:600px) and (max-width:768px) {
+    
+    .seccionInicio {
+        min-width: 200px;
+        margin: 20px 0px 20px 50%;
+
+    }
+
+    .seccionMenu{
+        height: 50px;
+    }
+
+    .buscador input {
+        height: 25px;
+        width: 60%;
+
+    }
+
+    .buscador input[type="submit"] {
+        width: 80px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main div {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    /* iniciar sesion */
+
+    #tarjetaIniciarSesion , #seccionMostrarDatos , #seccionRegistro {
+        left: 30%;
+        top: 30%;
+    }
+
+    
+
+}
+
+
+
+@media (min-width:769px) and (max-width:1250px){
+
+    
+    .tituloEmpresa {
+        font-size: x-large;
+    }
+
+    a.opcionMenu {
+        font-size: x-large;
+    }
+
+    .seccionInicio {
+        margin: 20px 0px 20px 45%;
+        width: 400px;
+    }
+
+    .buscador input {
+        width: 20%;
+    }
+
+    .buscador input[type="submit"] {
+
+        font-size: large;
+        width: 100px;
+
+    }
+
+    .seccionMenu {
+        height: 40px;
+    }
+
+    .imagenEscogernos{
+        
+        width: 80%;
+        margin: 0px auto;
+        
+    }
+
+}
+
+
+
+@media (min-width:1250px) {
+
+    .tituloEmpresa {
+        height: 80px;
+        padding: 25px;
+        font-size: 30px;
+    }
+
+    
+
+
+    .seccionInicio {
+        min-width: 300px;
+        margin: 20px 0px 20px 70%;
+    }
+
+
+    .buscador input {
+        height: 25px;
+        width: 300px;
+
+    }
+
+    
+
+    .buscador input[type="submit"] {
+        margin-left: 0%;
+        border-radius: 30px;
+        background-color: rgb(233, 36, 36);
+        border: none;
+        width: 10%;
+        font-size: 20px;
+    }
+
+    .seccionMenu {
+       
+        height: 40px;
+    }
+
+    a.opcionMenu {
+        font-size: x-large;
+        
+    }
+
+    .imagenEscogernos{
+        
+        width: 60%;
+        margin: 0px auto;
+        
+    }
+
+   
+
+}

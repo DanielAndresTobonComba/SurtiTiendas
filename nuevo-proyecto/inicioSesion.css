@@ -1,0 +1,74 @@
+/* Inicio de sesion */
+
+
+#tarjetaIniciarSesion {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(241, 90, 90);
+    left: 38%;
+    top: 38%;
+    position: fixed;
+    visibility: hidden;
+
+}
+
+#entradaDatos {
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px auto;
+}
+
+/* Mostrar datos ususario */
+
+#seccionMostrarDatos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    border-radius: 20px;
+    height: 200px;
+    visibility: hidden;
+    background-color: rgb(241, 90, 90);
+    left: 38%;
+    top: 38%;
+    position: fixed;
+}
+
+/* Registro de usuario */
+
+#enlaceRegistro {
+    margin-top: 10px;
+}
+
+#seccionRegistro {
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #083c64;
+    left: 38%;
+    top: 10%;
+    position: fixed;
+}
+
+#seccionRegistro input {
+    width: 50%;
+
+}
+
+#botonesRegistro {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0px auto;
+}
